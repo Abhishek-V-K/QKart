@@ -26,7 +26,6 @@ public class Register {
 
     public Boolean registerUser(String Username, String Password, Boolean makeUsernameDynamic)
             throws InterruptedException {
-
         // Find the Username Text Box
         WebElement username_txt_box = this.driver.findElement(By.id("username"));
 

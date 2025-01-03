@@ -80,9 +80,9 @@ public class SearchResult {
              * element, set status = true , else set to false
              */
           WebElement sizeChart =  parentElement.findElement(By.xpath("//*[@id='root']/div/div/div[3]/div[1]/div[2]/div[1]/div/div[1]/button"));
-          if(sizeChart.isDisplayed())
+          if(sizeChart.isDisplayed()){
             status = sizeChart.getText().trim().equals("SIZE CHART");
-          
+          }
     
            
             return status;

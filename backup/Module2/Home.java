@@ -12,13 +12,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
 public class Home {
     RemoteWebDriver driver;
     String url = "https://crio-qkart-frontend-qa.vercel.app";
@@ -39,7 +32,6 @@ public class Home {
             WebElement logout_button = driver.findElement(By.className("MuiButton-text"));
             logout_button.click();
 
-            // SLEEP_STMT_10: Wait for Logout to complete
             // Wait for Logout to Complete
             Thread.sleep(3000);
 
@@ -56,7 +48,7 @@ public class Home {
      */
     public Boolean searchForProduct(String product) {
         try {
-            
+            Thread.sleep(4000);
             // TODO: CRIO_TASK_MODULE_TEST_AUTOMATION - TEST CASE 03: MILESTONE 1
             WebElement searchBox = driver.findElement(By.xpath("//*[@id='root']/div/div/div[1]/div[2]/div/input"));
             // Clear the contents of the search box and Enter the product name in the search
@@ -64,10 +56,8 @@ public class Home {
             
             searchBox.sendKeys(product);
             searchBox.clear();
-             Thread.sleep(2000);
-            // WebDriverWait wait = new WebDriverWait(driver, 10);
-            // wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='root']/div/div/div[3]/div[1]/div[2]/div[1]/div")));
 
+            Thread.sleep(4000);
             return true;
         } catch (Exception e) {
             System.out.println("Error while searching for a product: " + e.getMessage());
@@ -128,11 +118,9 @@ public class Home {
              * 
              * Return true if these operations succeeds
              */
-        
          List<WebElement> namoeOfProduct =  driver.findElements(By.xpath("//*[@id='root']/div/div/div[3]/div[1]/div[2]/div/div/div[1]/p[1]"));
          for(WebElement products : namoeOfProduct){
-            Thread.sleep(3000);
-            
+            Thread.sleep(4000);
             if(products.getText().equalsIgnoreCase(productName)){
                 Thread.sleep(4000);
                 WebElement addToCart = driver.findElement(By.xpath("//*[@id='root']/div/div/div[3]/div[1]/div[2]/div[1]/div/div[2]/button"));
@@ -140,8 +128,8 @@ public class Home {
             }
          }
             
-            
-            return true;
+            //System.out.println("Unable to find the given product");
+            return false;
         } catch (Exception e) {
             System.out.println("Exception while performing add to cart: " + e.getMessage());
             return false;
@@ -176,7 +164,7 @@ public class Home {
             // TODO: CRIO_TASK_MODULE_TEST_AUTOMATION - TEST CASE 06: MILESTONE 5
 
             // Find the item on the cart with the matching productName
-             
+    
              List<WebElement> itemOnCart = driver.findElements(By.xpath("//*[@id='root']/div/div/div[3]/div[2]/div/div/div/div/div[1]"));
              List<WebElement> currQuantity = driver.findElements(By.xpath("//*[@id='root']/div/div/div[3]/div[2]/div/div/div/div[2]/div[2]/div[1]/div"));
              List<WebElement> minusButton = driver.findElements(By.xpath("//*[@id='root']/div/div/div[3]/div[2]/div/div/div/div[2]/div[2]/div[1]/button[1]"));   
@@ -190,13 +178,13 @@ public class Home {
                     // Adjust quantity as needed
                     while (currentQuantity < quantity) {
                         plusButton.get(i).click();
-                        Thread.sleep(1000);
+                        Thread.sleep(2000);
                         currentQuantity++;
                     }
     
                     while (currentQuantity > quantity) {
                         minusButton.get(i).click();
-                        Thread.sleep(1000);
+                        Thread.sleep(2000);
                         currentQuantity--;
                     }
     
@@ -231,7 +219,7 @@ public class Home {
         try {
             WebElement cartParent = driver.findElement(By.className("cart"));
             List<WebElement> cartContents = cartParent.findElements(By.className("css-zgtx0t"));
-            Thread.sleep(3000);
+
             ArrayList<String> actualCartContents = new ArrayList<String>() {
             };
             for (WebElement cartItem : cartContents) {
@@ -239,9 +227,7 @@ public class Home {
             }
 
             for (String expected : expectedCartContents) {
-                Thread.sleep(3000);
                 if (!actualCartContents.contains(expected)) {
-                    Thread.sleep(3000);
                     return false;
                 }
             }

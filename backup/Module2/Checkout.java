@@ -12,12 +12,6 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
-import java.util.List;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Checkout {
@@ -53,12 +47,6 @@ public class Checkout {
             WebElement clickOnAdd = driver.findElement(
                     By.xpath("//*[@id='root']/div/div[2]/div[1]/div/div[2]/div[2]/button[1]"));
             clickOnAdd.click();
-            WebDriverWait wait = new WebDriverWait(driver, 10);
-            wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='add-new-btn']")));
-            /*
-             * Click on the "Add new address" button, enter the addressString in the address
-             * text box and click on the "ADD" button to save the address
-             */
             return false;
         } catch (Exception e) {
             System.out.println("Exception occurred while entering address: " + e.getMessage());
@@ -86,14 +74,10 @@ public class Checkout {
                 }
             }
             // System.out.println("Unable to find the given address");
-            /*
-             * Iterate through all the address boxes to find the address box with matching
-             * text, addressToSelect and click on it
-             */
-            
             return false;
         } catch (Exception e) {
-            System.out.println("Exception Occurred while selecting the given address: " + e.getMessage());
+            System.out.println(
+                    "Exception Occurred while selecting the given address: " + e.getMessage());
             return false;
         }
 
@@ -106,13 +90,10 @@ public class Checkout {
         try {
             // TODO: CRIO_TASK_MODULE_TEST_AUTOMATION - TEST CASE 05: MILESTONE 4
             // Find the "PLACE ORDER" button and click on it
-            
-          
-            
-            WebElement element = driver.findElement(By.xpath("//*[@id='root']/div/div/div/div/button[2]"));
-            element.click();
+            Thread.sleep(5000);
+            driver.findElement(By.xpath("//*[@id='root']/div/div/div/div/button[2]")).click();
+            // Thread.sleep(10000);
             return true;
-            
 
         } catch (Exception e) {
             System.out.println("Exception while clicking on PLACE ORDER: " + e.getMessage());

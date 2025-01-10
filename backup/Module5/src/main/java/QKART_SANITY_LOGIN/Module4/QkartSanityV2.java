@@ -491,7 +491,7 @@ public class QkartSanityV2 {
 
         String currentURL = driver.getCurrentUrl();
 
-        driver.findElement(By.linkText("Privacy policy")).click();
+
         Set<String> handles = driver.getWindowHandles();
         driver.switchTo().window(handles.toArray(new String[handles.size()])[1]);
 

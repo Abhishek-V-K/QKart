@@ -100,7 +100,9 @@ public class Checkout {
      */
     public Boolean verifyInsufficientBalanceMessage() {
         try {
-            WebElement alertMessage = driver.findElement(By.id("notistack-snackbar"));
+            WebDriverWait wait = new WebDriverWait(driver,200);
+        
+            WebElement alertMessage = wait.until(ExpectedConditions.presenceOfElementLocated(By.id("notistack-snackbar")));
             if (alertMessage.isDisplayed()) {
                 if (alertMessage.getText().equals("You do not have enough balance in your wallet for this purchase")) {
                     return true;

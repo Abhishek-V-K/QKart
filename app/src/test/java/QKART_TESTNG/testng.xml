@@ -6,7 +6,7 @@
     </listeners> -->
     <test name = "Test case execution on Chrome browser">
 
-        <parameter name="TC1_Username" value="testUser" />
+        <!-- <parameter name="TC1_Username" value="testUser" />
         <parameter name="TC1_Password" value="abc@123" />
 
          <parameter name="TC5_ProductNameToSearchFor" value="YONEX" />
@@ -17,13 +17,14 @@
          <parameter name="TC6_ProductNameToSearch2" value="Yarine" />
 
          <parameter name="TC7_ProductName" value="Stylecon" />
-         <parameter name="TC7_Qty" value="10" />
+         <parameter name="TC7_Qty" value="10" /> -->
 
 
         <groups>
             <run>
+            <include name = "Regression_Test"></include>
               <include name = "Sanity_test"></include>
-              <include name = "Regression_Test"></include>
+              
             </run>
         </groups>
 

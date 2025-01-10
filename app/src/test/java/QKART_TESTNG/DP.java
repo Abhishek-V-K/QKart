@@ -22,13 +22,11 @@ public class DP {
                 return new Object[][] {{"testUsername", "testPassword"},
                         {"testUsername123", "testPassword123"}, {"test_123", "test_123"}};
             case "TestCase03":
-                return new Object[][] {{"testUsername", "testPassword"}, {"YONEX"}, {"Roadster"},
-                        {"Connector"}};
+                return new Object[][] {{"YONEX"}, {"Roadster"}, {"Connector"}};
             case "TestCase04":
-                return new Object[][] {{"testUsername", "testPassword"},
-                        {"Nike Mens Running Shoes"}, {"Roadster"}, {"HandBag"}};
+                return new Object[][] {{"Nike Mens Running Shoes"}, {"Roadster"}, {"HandBag"}};
             case "TestCase05":
-                return new Object[][] {{"testUsername", "testPassword"},
+                return new Object[][] {
                         {"YONEX Smash Badminton Racquet", "Tan Leatherette Weekender Duffle",
                                 "Addr line 1 addr Line 2 addr line 3"},
                         {"Tan Leatherette Weekender Duffle", "YONEX Smash Badminton Racquet",
@@ -39,18 +37,22 @@ public class DP {
                 return new Object[][] {{"Xtend Smart Watch", "Yarine Floor Lamp"},
                         {"Yarine Floor Lamp", "Connector"}, {"Connector", "Kindle"}};
             case "TestCase07":
-                return new Object[][] {{"Tan Leatherette Weekender Duffle;Xtend Smart Watch"},
-                        {"Connector;Xtend Smart Watch"}, {"Kindle;Jenga"}};
+                return new Object[][] {{"Tan Leatherette Weekender Duffle", 60},
+                {"Jenga", 60},{"SuitCase", 50}};
             case "TestCase08":
-                return new Object[][] {{"Tan Leatherette Weekender Duffle","60"},
-                        {"SuitCase","50"}, {"Jenga","60"}};
-            case "TestCase11":
-                return new Object[][] {{"crio user","criouser@gmail.com","Testing the contact us page"},
-                        {"facebook user","test_user__@gmail.com","!!!special characters!!"}, {"hacker user !!!","bad_user@gmail.com","<XSS testing>"}};
+                return new Object[][] {{"YONEX Smash Badminton Racquet"}, {"Roadster Mens Running Shoes"}, {"Connector"}};
+
+            case "TestCase10":
+                return new Object[][] {
+                        {"crio user", "criouser@gmail.com", "Testing the contact us page"},
+                        {"facebook user", "test_user__@gmail.com", "!!!special characters!!"},
+                        {"hacker user !!!", "bad_user@gmail.com", "<XSS testing>"}};
             case "TestCase12":
-                return new Object[][] {{"YONEX Smash Badminton Racquet","Addr line 1 addr Line 2 addr line 3"},
-                        {"Connector","Apple Park, Cupertino, CA, U.S. - CA"}, {"Kindle","Dubai main road , Near Bus Stand"}};
-            
+                return new Object[][] {
+                        {"YONEX Smash Badminton Racquet", "Addr line 1 addr Line 2 addr line 3"},
+                        {"Connector", "Apple Park, Cupertino, CA, U.S. - CA"},
+                        {"Kindle", "Dubai main road , Near Bus Stand"}};
+
         }
         return null;
 

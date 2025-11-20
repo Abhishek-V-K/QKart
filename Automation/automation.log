@@ -1,0 +1,560 @@
+2025-11-20 09:00:38 INFO  Test - Automation started.
+2025-11-20 09:00:46 INFO  Test - Navigated to TMDB Discover page.
+2025-11-20 09:00:46 INFO  Test - Selecting movie filters: Type=Movie, Genre=Action, StartYear=1900, EndYear=2024, Rating=3.5
+2025-11-20 09:00:48 INFO  Test - Selected rating: 3.5
+2025-11-20 09:00:48 INFO  Test - Searching for movie/TV show: Fantastic Four
+2025-11-20 09:00:48 INFO  Test - Browser closed.
+2025-11-20 09:01:09 INFO  Test - Automation started.
+2025-11-20 09:01:18 INFO  Test - Navigated to TMDB Discover page.
+2025-11-20 09:01:18 INFO  Test - Selecting movie filters: Type=Movie, Genre=Action, StartYear=1900, EndYear=2024, Rating=3.5
+2025-11-20 09:01:20 INFO  Test - Selected rating: 3.5
+2025-11-20 09:01:20 INFO  Test - Searching for movie/TV show: Fantastic Four
+2025-11-20 09:01:20 INFO  Test - Browser closed.
+2025-11-20 09:10:43 INFO  Test - Automation started.
+2025-11-20 09:10:50 INFO  Test - Navigated to TMDB Discover page.
+2025-11-20 09:10:50 INFO  Test - Selecting movie filters: Type=Movie, Genre=Action, StartYear=1900, EndYear=2024, Rating=3.5
+2025-11-20 09:10:52 INFO  Test - Selected rating: 3.5
+2025-11-20 09:10:52 INFO  Test - Searching for movie/TV show: Fantastic Four
+2025-11-20 09:10:52 INFO  Test - Browser closed.
+2025-11-20 09:16:31 INFO  Test - Automation started.
+2025-11-20 09:16:40 INFO  Test - Navigated to TMDB Discover page.
+2025-11-20 09:16:40 INFO  Test - Selecting movie filters: Type=Movie, Genre=Action, StartYear=1900, EndYear=2024, Rating=3.5
+2025-11-20 09:16:41 ERROR Test - Failed to capture screenshot
+java.io.FileNotFoundException: screenshots\type_pass.png (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:133)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:112)
+	at Test.captureScreenshot(Test.java:122)
+	at Test.selectMovieFilters(Test.java:33)
+	at Test.main(Test.java:144)
+2025-11-20 09:16:41 ERROR Test - Failed to capture screenshot
+java.io.FileNotFoundException: screenshots\genre_pass.png (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:133)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:112)
+	at Test.captureScreenshot(Test.java:122)
+	at Test.selectMovieFilters(Test.java:41)
+	at Test.main(Test.java:144)
+2025-11-20 09:16:42 ERROR Test - Failed to capture screenshot
+java.io.FileNotFoundException: screenshots\startYear_pass.png (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:133)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:112)
+	at Test.captureScreenshot(Test.java:122)
+	at Test.selectMovieFilters(Test.java:49)
+	at Test.main(Test.java:144)
+2025-11-20 09:16:42 ERROR Test - Failed to capture screenshot
+java.io.FileNotFoundException: screenshots\endYear_pass.png (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:133)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:112)
+	at Test.captureScreenshot(Test.java:122)
+	at Test.selectMovieFilters(Test.java:57)
+	at Test.main(Test.java:144)
+2025-11-20 09:16:42 INFO  Test - Selected rating: 3.5
+2025-11-20 09:16:43 ERROR Test - Failed to capture screenshot
+java.io.FileNotFoundException: screenshots\rating_pass.png (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:133)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:112)
+	at Test.captureScreenshot(Test.java:122)
+	at Test.selectMovieFilters(Test.java:68)
+	at Test.main(Test.java:144)
+2025-11-20 09:16:43 INFO  Test - Searching for movie/TV show: Fantastic Four
+2025-11-20 09:16:43 INFO  Test - Browser closed.
+2025-11-20 09:19:31 INFO  Test - Automation started.
+2025-11-20 09:19:38 INFO  Test - Navigated to TMDB Discover page.
+2025-11-20 09:19:38 INFO  Test - Selecting movie filters: Type=Movie, Genre=Action, StartYear=1900, EndYear=2024, Rating=3.5
+2025-11-20 09:19:39 ERROR Test - Failed to capture screenshot
+java.io.FileNotFoundException: C:\Users\AVKAMALA\Downloads\Automation\src\main\resources (Access is denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:133)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:112)
+	at Test.captureScreenshot(Test.java:122)
+	at Test.selectMovieFilters(Test.java:33)
+	at Test.main(Test.java:144)
+2025-11-20 09:19:39 ERROR Test - Failed to capture screenshot
+java.io.FileNotFoundException: C:\Users\AVKAMALA\Downloads\Automation\src\main\resources (Access is denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:133)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:112)
+	at Test.captureScreenshot(Test.java:122)
+	at Test.selectMovieFilters(Test.java:41)
+	at Test.main(Test.java:144)
+2025-11-20 09:19:40 ERROR Test - Failed to capture screenshot
+java.io.FileNotFoundException: C:\Users\AVKAMALA\Downloads\Automation\src\main\resources (Access is denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:133)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:112)
+	at Test.captureScreenshot(Test.java:122)
+	at Test.selectMovieFilters(Test.java:49)
+	at Test.main(Test.java:144)
+2025-11-20 09:19:40 ERROR Test - Failed to capture screenshot
+java.io.FileNotFoundException: C:\Users\AVKAMALA\Downloads\Automation\src\main\resources (Access is denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:133)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:112)
+	at Test.captureScreenshot(Test.java:122)
+	at Test.selectMovieFilters(Test.java:57)
+	at Test.main(Test.java:144)
+2025-11-20 09:19:40 INFO  Test - Selected rating: 3.5
+2025-11-20 09:19:41 ERROR Test - Failed to capture screenshot
+java.io.FileNotFoundException: C:\Users\AVKAMALA\Downloads\Automation\src\main\resources (Access is denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:133)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:112)
+	at Test.captureScreenshot(Test.java:122)
+	at Test.selectMovieFilters(Test.java:68)
+	at Test.main(Test.java:144)
+2025-11-20 09:19:41 INFO  Test - Searching for movie/TV show: Fantastic Four
+2025-11-20 09:19:41 INFO  Test - Browser closed.
+2025-11-20 09:20:15 INFO  Test - Automation started.
+2025-11-20 09:20:23 INFO  Test - Navigated to TMDB Discover page.
+2025-11-20 09:20:23 INFO  Test - Selecting movie filters: Type=Movie, Genre=Action, StartYear=1900, EndYear=2024, Rating=3.5
+2025-11-20 09:20:24 ERROR Test - Failed to capture screenshot
+java.io.FileNotFoundException: C:\Users\AVKAMALA\Downloads\Automation\src (Access is denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:133)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:112)
+	at Test.captureScreenshot(Test.java:122)
+	at Test.selectMovieFilters(Test.java:33)
+	at Test.main(Test.java:144)
+2025-11-20 09:20:25 ERROR Test - Failed to capture screenshot
+java.io.FileNotFoundException: C:\Users\AVKAMALA\Downloads\Automation\src (Access is denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:133)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:112)
+	at Test.captureScreenshot(Test.java:122)
+	at Test.selectMovieFilters(Test.java:41)
+	at Test.main(Test.java:144)
+2025-11-20 09:20:26 ERROR Test - Failed to capture screenshot
+java.io.FileNotFoundException: C:\Users\AVKAMALA\Downloads\Automation\src (Access is denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:133)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:112)
+	at Test.captureScreenshot(Test.java:122)
+	at Test.selectMovieFilters(Test.java:49)
+	at Test.main(Test.java:144)
+2025-11-20 09:20:27 ERROR Test - Failed to capture screenshot
+java.io.FileNotFoundException: C:\Users\AVKAMALA\Downloads\Automation\src (Access is denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:133)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:112)
+	at Test.captureScreenshot(Test.java:122)
+	at Test.selectMovieFilters(Test.java:57)
+	at Test.main(Test.java:144)
+2025-11-20 09:20:27 INFO  Test - Selected rating: 3.5
+2025-11-20 09:20:27 ERROR Test - Failed to capture screenshot
+java.io.FileNotFoundException: C:\Users\AVKAMALA\Downloads\Automation\src (Access is denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:133)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:112)
+	at Test.captureScreenshot(Test.java:122)
+	at Test.selectMovieFilters(Test.java:68)
+	at Test.main(Test.java:144)
+2025-11-20 09:20:27 INFO  Test - Searching for movie/TV show: Fantastic Four
+2025-11-20 09:20:28 INFO  Test - Browser closed.
+2025-11-20 09:20:46 INFO  Test - Automation started.
+2025-11-20 09:20:54 INFO  Test - Navigated to TMDB Discover page.
+2025-11-20 09:20:54 INFO  Test - Selecting movie filters: Type=Movie, Genre=Action, StartYear=1900, EndYear=2024, Rating=3.5
+2025-11-20 09:20:55 ERROR Test - Failed to capture screenshot
+java.io.FileNotFoundException: C:\Users\AVKAMALA\Downloads\Automation (Access is denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:133)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:112)
+	at Test.captureScreenshot(Test.java:122)
+	at Test.selectMovieFilters(Test.java:33)
+	at Test.main(Test.java:144)
+2025-11-20 09:20:56 ERROR Test - Failed to capture screenshot
+java.io.FileNotFoundException: C:\Users\AVKAMALA\Downloads\Automation (Access is denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:133)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:112)
+	at Test.captureScreenshot(Test.java:122)
+	at Test.selectMovieFilters(Test.java:41)
+	at Test.main(Test.java:144)
+2025-11-20 09:20:56 ERROR Test - Failed to capture screenshot
+java.io.FileNotFoundException: C:\Users\AVKAMALA\Downloads\Automation (Access is denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:133)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:112)
+	at Test.captureScreenshot(Test.java:122)
+	at Test.selectMovieFilters(Test.java:49)
+	at Test.main(Test.java:144)
+2025-11-20 09:20:57 ERROR Test - Failed to capture screenshot
+java.io.FileNotFoundException: C:\Users\AVKAMALA\Downloads\Automation (Access is denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:133)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:112)
+	at Test.captureScreenshot(Test.java:122)
+	at Test.selectMovieFilters(Test.java:57)
+	at Test.main(Test.java:144)
+2025-11-20 09:20:57 INFO  Test - Selected rating: 3.5
+2025-11-20 09:20:57 ERROR Test - Failed to capture screenshot
+java.io.FileNotFoundException: C:\Users\AVKAMALA\Downloads\Automation (Access is denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:133)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:112)
+	at Test.captureScreenshot(Test.java:122)
+	at Test.selectMovieFilters(Test.java:68)
+	at Test.main(Test.java:144)
+2025-11-20 09:20:57 INFO  Test - Searching for movie/TV show: Fantastic Four
+2025-11-20 09:20:58 INFO  Test - Browser closed.
+2025-11-20 09:31:39 INFO  org.testng.annotations.Test - Automation started.
+2025-11-20 09:31:48 INFO  org.testng.annotations.Test - Navigated to TMDB Discover page.
+2025-11-20 09:31:48 INFO  org.testng.annotations.Test - Selecting movie filters: Type=Movie, Genre=Action, StartYear=1900, EndYear=2024, Rating=3.5
+2025-11-20 09:31:50 INFO  org.testng.annotations.Test - Selected rating: 3.5
+2025-11-20 09:31:50 INFO  org.testng.annotations.Test - Searching for movie/TV show: Fantastic Four
+2025-11-20 09:31:50 INFO  org.testng.annotations.Test - Browser closed.
+2025-11-20 09:32:36 INFO  org.testng.annotations.Test - Automation started.
+2025-11-20 09:32:44 INFO  org.testng.annotations.Test - Navigated to TMDB Discover page.
+2025-11-20 09:32:44 INFO  org.testng.annotations.Test - Selecting movie filters: Type=Movie, Genre=Action, StartYear=1900, EndYear=2024, Rating=3.5
+2025-11-20 09:32:45 INFO  org.testng.annotations.Test - Selected rating: 3.5
+2025-11-20 09:32:45 INFO  org.testng.annotations.Test - Searching for movie/TV show: Fantastic Four
+2025-11-20 09:32:46 INFO  org.testng.annotations.Test - Browser closed.
+2025-11-20 11:04:25 INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-11-20 11:04:42 INFO  TMDBjavaclass.TMDBtestinghelper - Calling Movie Popular API...
+2025-11-20 11:04:55 INFO  TMDBjavaclass.TMDBtestinghelper - Status Code: 200
+2025-11-20 11:04:55 ERROR TMDBjavaclass.TMDBtestinghelper - Expected JSON but got: text/html
+2025-11-20 11:04:55 ERROR TMDBjavaclass.TMDBtestinghelper - Error calling Movie Popular API
+java.lang.RuntimeException: Invalid content type
+	at TMDBjavaclass.TMDBtestinghelper.moviePopularAPI(TMDBtestinghelper.java:111)
+	at Testing.TMDBtesting.moviePopularAPITest(TMDBtesting.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.microsoft.java.test.runner.testng.TestNGRunner.run(TestNGRunner.java:45)
+	at com.microsoft.java.test.runner.testng.TestNGLauncher.execute(TestNGLauncher.java:32)
+	at com.microsoft.java.test.runner.Launcher.main(Launcher.java:57)
+2025-11-20 11:06:05 INFO  TMDBjavaclass.TMDBtestinghelper - Selecting movie filters: Type=Movie, Genre=Action, StartYear=2000, EndYear=2024, Rating=3.5
+2025-11-20 11:06:07 INFO  TMDBjavaclass.TMDBtestinghelper - Selected rating: 3.5
+2025-11-20 11:06:14 INFO  TMDBjavaclass.TMDBtestinghelper - Selecting movie filters: Type=TV Show, Genre=Comedy, StartYear=1990, EndYear=2020, Rating=4.0
+2025-11-20 11:06:17 ERROR TMDBjavaclass.TMDBtestinghelper - Error while selecting movie filters
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="rc-rate-star-second">...</div> is not clickable at point (1012, 352). Other element would receive the click: <div class="rc-rate-star-first">...</div>
+  (Session info: chrome=142.0.7444.135)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1048b2729de5edd1c7690292cf490fba, clickElement {id=f.7EF3B0ED78DA1AA4584922B781FDC222.d.0E6050263EA3EB0D23456FDE6C81CC5C.e.106}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.135, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\AVKAMALA\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62820}, goog:processID: 29108, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62820/devtoo..., se:cdpVersion: 142.0.7444.135, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1048b2729de5edd1c7690292cf490fba)] -> xpath: //div[@aria-posinset='4']/div[2]]
+Session ID: 1048b2729de5edd1c7690292cf490fba
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at TMDBjavaclass.TMDBtestinghelper.selectMovieFilters(TMDBtestinghelper.java:70)
+	at Testing.TMDBtesting.selectMovieFiltersTest(TMDBtesting.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.microsoft.java.test.runner.testng.TestNGRunner.run(TestNGRunner.java:45)
+	at com.microsoft.java.test.runner.testng.TestNGLauncher.execute(TestNGLauncher.java:32)
+	at com.microsoft.java.test.runner.Launcher.main(Launcher.java:57)
+2025-11-20 11:06:25 INFO  TMDBjavaclass.TMDBtestinghelper - Selecting movie filters: Type=Movie, Genre=Drama, StartYear=1980, EndYear=2024, Rating=2.5
+2025-11-20 11:06:26 INFO  TMDBjavaclass.TMDBtestinghelper - Selected rating: 2.5
+2025-11-20 11:08:19 INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-11-20 11:08:28 INFO  TMDBjavaclass.TMDBtestinghelper - Calling Movie Popular API...
+2025-11-20 11:08:32 INFO  TMDBjavaclass.TMDBtestinghelper - Status Code: 200
+2025-11-20 11:08:32 ERROR TMDBjavaclass.TMDBtestinghelper - Expected JSON but got: text/html
+2025-11-20 11:08:32 ERROR TMDBjavaclass.TMDBtestinghelper - Error calling Movie Popular API
+java.lang.RuntimeException: Invalid content type
+	at TMDBjavaclass.TMDBtestinghelper.moviePopularAPI(TMDBtestinghelper.java:111)
+	at Testing.TMDBtesting.moviePopularAPITest(TMDBtesting.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.microsoft.java.test.runner.testng.TestNGRunner.run(TestNGRunner.java:45)
+	at com.microsoft.java.test.runner.testng.TestNGLauncher.execute(TestNGLauncher.java:32)
+	at com.microsoft.java.test.runner.Launcher.main(Launcher.java:57)
+2025-11-20 11:08:41 INFO  TMDBjavaclass.TMDBtestinghelper - Selecting movie filters: Type=Movie, Genre=Action, StartYear=2000, EndYear=2024, Rating=3.5
+2025-11-20 11:08:42 INFO  TMDBjavaclass.TMDBtestinghelper - Selected rating: 3.5
+2025-11-20 11:08:55 INFO  TMDBjavaclass.TMDBtestinghelper - Selecting movie filters: Type=TV Show, Genre=Comedy, StartYear=1990, EndYear=2020, Rating=4.0
+2025-11-20 11:08:57 ERROR TMDBjavaclass.TMDBtestinghelper - Error while selecting movie filters
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="rc-rate-star-second">...</div> is not clickable at point (1012, 352). Other element would receive the click: <div class="rc-rate-star-first">...</div>
+  (Session info: chrome=142.0.7444.135)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [723f52c7f4c693ee2cb9c68a43b32621, clickElement {id=f.86895A1C8E09F7A07CD0F477B697407B.d.18C4870938B684C2184D22C3CC4B3369.e.106}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.135, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\AVKAMALA\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50315}, goog:processID: 27104, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50315/devtoo..., se:cdpVersion: 142.0.7444.135, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (723f52c7f4c693ee2cb9c68a43b32621)] -> xpath: //div[@aria-posinset='4']/div[2]]
+Session ID: 723f52c7f4c693ee2cb9c68a43b32621
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at TMDBjavaclass.TMDBtestinghelper.selectMovieFilters(TMDBtestinghelper.java:70)
+	at Testing.TMDBtesting.selectMovieFiltersTest(TMDBtesting.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.microsoft.java.test.runner.testng.TestNGRunner.run(TestNGRunner.java:45)
+	at com.microsoft.java.test.runner.testng.TestNGLauncher.execute(TestNGLauncher.java:32)
+	at com.microsoft.java.test.runner.Launcher.main(Launcher.java:57)
+2025-11-20 11:09:05 INFO  TMDBjavaclass.TMDBtestinghelper - Selecting movie filters: Type=Movie, Genre=Drama, StartYear=1980, EndYear=2024, Rating=2.5
+2025-11-20 11:09:07 INFO  TMDBjavaclass.TMDBtestinghelper - Selected rating: 2.5
+2025-11-20 11:11:38 INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-11-20 11:11:45 INFO  TMDBjavaclass.TMDBtestinghelper - Calling Movie Popular API...
+2025-11-20 11:11:50 INFO  TMDBjavaclass.TMDBtestinghelper - Status Code: 200
+2025-11-20 11:11:50 ERROR TMDBjavaclass.TMDBtestinghelper - Expected JSON but got: text/html
+2025-11-20 11:11:50 ERROR TMDBjavaclass.TMDBtestinghelper - Error calling Movie Popular API
+java.lang.RuntimeException: Invalid content type
+	at TMDBjavaclass.TMDBtestinghelper.moviePopularAPI(TMDBtestinghelper.java:111)
+	at Testing.TMDBtesting.moviePopularAPITest(TMDBtesting.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.microsoft.java.test.runner.testng.TestNGRunner.run(TestNGRunner.java:45)
+	at com.microsoft.java.test.runner.testng.TestNGLauncher.execute(TestNGLauncher.java:32)
+	at com.microsoft.java.test.runner.Launcher.main(Launcher.java:57)
+2025-11-20 11:11:59 INFO  TMDBjavaclass.TMDBtestinghelper - Selecting movie filters: Type=Movie, Genre=Action, StartYear=2000, EndYear=2024, Rating=3.5
+2025-11-20 11:12:00 INFO  TMDBjavaclass.TMDBtestinghelper - Selected rating: 3.5
+2025-11-20 11:19:49 INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-11-20 11:19:58 INFO  TMDBjavaclass.TMDBtestinghelper - Searching for movie/TV show: Fantastic Four
+2025-11-20 11:20:05 INFO  TMDBjavaclass.TMDBtestinghelper - Searching for movie/TV show: Avengers
+2025-11-20 11:20:12 INFO  TMDBjavaclass.TMDBtestinghelper - Searching for movie/TV show: Breaking Bad
+2025-11-20 11:20:21 INFO  TMDBjavaclass.TMDBtestinghelper - Selecting movie filters: Type=Movie, Genre=Action, StartYear=2000, EndYear=2024, Rating=3.5
+2025-11-20 11:20:23 INFO  TMDBjavaclass.TMDBtestinghelper - Selected rating: 3.5
+2025-11-20 11:20:32 INFO  TMDBjavaclass.TMDBtestinghelper - Selecting movie filters: Type=TV Show, Genre=Comedy, StartYear=1990, EndYear=2020, Rating=4.0
+2025-11-20 11:20:34 ERROR TMDBjavaclass.TMDBtestinghelper - Error while selecting movie filters
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="rc-rate-star-second">...</div> is not clickable at point (1012, 352). Other element would receive the click: <div class="rc-rate-star-first">...</div>
+  (Session info: chrome=142.0.7444.135)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4423cbc0960eba26e7f3e51ceea4d674, clickElement {id=f.EECEEEC7AA4FF3BDFC673BD5E6EC9B32.d.1438B8ED8BC51190F773CEABB4955276.e.106}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.135, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\AVKAMALA\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58432}, goog:processID: 696, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58432/devtoo..., se:cdpVersion: 142.0.7444.135, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (4423cbc0960eba26e7f3e51ceea4d674)] -> xpath: //div[@aria-posinset='4']/div[2]]
+Session ID: 4423cbc0960eba26e7f3e51ceea4d674
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at TMDBjavaclass.TMDBtestinghelper.selectMovieFilters(TMDBtestinghelper.java:70)
+	at Testing.TMDBtesting.selectMovieFiltersTest(TMDBtesting.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.microsoft.java.test.runner.testng.TestNGRunner.run(TestNGRunner.java:45)
+	at com.microsoft.java.test.runner.testng.TestNGLauncher.execute(TestNGLauncher.java:32)
+	at com.microsoft.java.test.runner.Launcher.main(Launcher.java:57)
+2025-11-20 11:20:42 INFO  TMDBjavaclass.TMDBtestinghelper - Selecting movie filters: Type=Movie, Genre=Drama, StartYear=1980, EndYear=2024, Rating=2.5
+2025-11-20 11:20:43 INFO  TMDBjavaclass.TMDBtestinghelper - Selected rating: 2.5
+2025-11-20 11:22:10 INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-11-20 11:22:23 INFO  TMDBjavaclass.TMDBtestinghelper - Selecting movie filters: Type=Movie, Genre=Action, StartYear=2000, EndYear=2024, Rating=3.5
+2025-11-20 11:22:24 INFO  TMDBjavaclass.TMDBtestinghelper - Selected rating: 3.5

@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Common libraries for main and test
+    implementation "org.seleniumhq.selenium:selenium-java:4.38.0"
+    implementation "io.rest-assured:rest-assured:5.5.0"
+    implementation "com.fasterxml.jackson.core:jackson-databind:2.17.0"
+    implementation "org.slf4j:slf4j-api:2.0.17"
+    implementation "ch.qos.logback:logback-classic:1.5.21"
+    implementation "com.aventstack:extentreports:5.1.2"
+
+    // TestNG only for tests
+    testImplementation "org.testng:testng:7.11.0"
+}
+
+test {
+    useTestNG() {
+        suites 'resources/testng.xml'
+    }
+}
